@@ -1,14 +1,14 @@
-import { UpgradeKey } from "@laundry/store";
-import { Cheats } from "components/panels/Cheats";
-import { ExplorationTabs } from "components/panels/ExplorationTabs";
-import { Import } from "components/panels/Import";
-import { Messages } from "components/panels/Messages";
-import { Reset } from "components/panels/Reset";
-import { Speedup } from "components/panels/Speedup";
-import { Timeline } from "components/panels/Timeline";
-import { WindowPane } from "components/panels/WindowPane";
-import { useSelector } from "components/StateProvider";
-import { Status } from "components/Status";
+import { UpgradeKey } from "@barry/store";
+import { Cheats } from "../panels/Cheats";
+import { ExplorationTabs } from "../panels/ExplorationTabs";
+import { Import } from "../panels/Import";
+import { Messages } from "../panels/Messages";
+import { Reset } from "../panels/Reset";
+import { Speedup } from "../panels/Speedup";
+import { Timeline } from "../panels/Timeline";
+import { WindowPane } from "../panels/WindowPane";
+import { useSelector } from "../StateProvider";
+import { Status } from "../Status";
 import { useState } from "react";
 
 type Panel = "explorations" | "upgrades";

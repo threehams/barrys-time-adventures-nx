@@ -3,7 +3,7 @@ import {
   initialState,
   explorations,
   findUnlockFor,
-} from "@laundry/store";
+} from "@barry/store";
 import { Updater } from "../types";
 import {
   updateTime,

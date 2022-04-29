@@ -1,6 +1,6 @@
 import { useSelector } from "./StateProvider";
 import { addMilliseconds, format, hoursToSeconds, sub } from "date-fns";
-import { Progress } from "@laundry/ui";
+import { Progress } from "@barry/ui";
 import {
   findResource,
   findSkill,
@@ -9,7 +9,7 @@ import {
   getSourceAmount,
   getSourceTime,
   sources,
-} from "@laundry/store";
+} from "@barry/store";
 import { groupBy } from "lodash";
 
 const THE_EVENT_DATE = new Date(1997, 7, 29, 2, 14, 0).valueOf();
@@ -44,7 +44,7 @@ export const Status = ({ className }: Props) => {
     addMilliseconds(startDate, time * 1000),
     "MMMM d, yyyy HH'h'",
   );
-  let phaseResources =
+  const phaseResources =
     phase === "expand" || phase === "collapse"
       ? (["barry"] as const)
       : (["junk", "money", "food", "water", "power"] as const);

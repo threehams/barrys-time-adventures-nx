@@ -3,7 +3,7 @@ import {
   getSourceAmount,
   getSourceTime,
   sources,
-} from "@laundry/store";
+} from "@barry/store";
 import { groupBy } from "lodash";
 import { Updater } from "../types";
 

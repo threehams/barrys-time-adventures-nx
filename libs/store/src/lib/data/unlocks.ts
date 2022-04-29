@@ -134,4 +134,5 @@ export const findUnlockFor = (thing: {
       return unlock;
     }
   }
+  return undefined;
 };

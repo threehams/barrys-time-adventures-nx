@@ -1,4 +1,4 @@
-import { State } from "@laundry/store";
+import { State } from "@barry/store";
 import { Draft } from "immer";
 
 export type Updater = (

@@ -1,4 +1,4 @@
-import { Button } from "@laundry/ui";
+import { Button } from "@barry/ui";
 import { useState } from "react";
 import { useDispatch } from "../StateProvider";
 

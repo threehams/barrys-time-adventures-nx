@@ -14,6 +14,7 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
+    "noImplicitReturns": false,
     "paths": {
       "@barry/store": ["libs/store/src/index.ts"],
       "@barry/ui": ["libs/ui/src/index.ts"],

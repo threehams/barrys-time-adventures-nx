@@ -1,5 +1,5 @@
-import { initialState, UnlockKey } from "@laundry/store";
-import { Button } from "@laundry/ui";
+import { initialState, UnlockKey } from "@barry/store";
+import { Button } from "@barry/ui";
 import { useDispatch, useSelector } from "../StateProvider";
 
 export const Speedup = () => {

@@ -2,7 +2,7 @@ import {
   createContext,
   useContextSelector,
 } from "@fluentui/react-context-selector";
-import { StateAction, State } from "@laundry/store";
+import { StateAction, State } from "@barry/store";
 import { createContext as reactCreateContext, useContext } from "react";
 
 const StateContext = createContext<State>(undefined as any);
@@ -11,7 +11,7 @@ const DispatchContext = reactCreateContext<(action: StateAction) => void>(
 );
 
 export const StateProvider = StateContext.Provider;
-export const useSelector = <TSelected extends unknown>(
+export const useSelector = <TSelected,>(
   callback: (state: State) => TSelected,
 ): TSelected => {
   return useContextSelector(StateContext, callback);

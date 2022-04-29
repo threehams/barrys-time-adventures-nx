@@ -1,5 +1,5 @@
-import { findUpgrade } from "@laundry/store";
-import { news } from "libs/store/data/news";
+import { findUpgrade } from "@barry/store";
+import { news } from "@barry/store";
 import { Updater } from "../types";
 
 export const updateMessages: Updater = (state, delta) => {

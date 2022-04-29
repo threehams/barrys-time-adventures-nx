@@ -1,13 +1,13 @@
-import { Cheats } from "components/panels/Cheats";
-import { Import } from "components/panels/Import";
-import { Messages } from "components/panels/Messages";
-import { Reset } from "components/panels/Reset";
-import { Speedup } from "components/panels/Speedup";
-import { Timeline } from "components/panels/Timeline";
-import { Upgrades } from "components/panels/Upgrades";
-import { WindowPane } from "components/panels/WindowPane";
-import { useSelector } from "components/StateProvider";
-import { Status } from "components/Status";
+import { Cheats } from "../panels/Cheats";
+import { Import } from "../panels/Import";
+import { Messages } from "../panels/Messages";
+import { Reset } from "../panels/Reset";
+import { Speedup } from "../panels/Speedup";
+import { Timeline } from "../panels/Timeline";
+import { Upgrades } from "../panels/Upgrades";
+import { WindowPane } from "../panels/WindowPane";
+import { useSelector } from "../StateProvider";
+import { Status } from "../Status";
 
 export const PreEvent = () => {
   const pastRestart = useSelector((state) => state.unlocks.pastRestart);

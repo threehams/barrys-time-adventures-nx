@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import { useSelector } from "../StateProvider";
 import { EffectText } from "../EffectText";
-import { MessageLevel } from "@laundry/store";
+import { MessageLevel } from "@barry/store";
 
 export const Messages = () => {
   const messages = useSelector((state) => state.messages)

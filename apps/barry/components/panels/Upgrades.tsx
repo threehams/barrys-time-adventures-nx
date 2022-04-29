@@ -9,8 +9,8 @@ import {
   Upgrade,
   UpgradeKey,
   upgrades,
-} from "@laundry/store";
-import { Button } from "@laundry/ui";
+} from "@barry/store";
+import { Button } from "@barry/ui";
 import clsx from "clsx";
 import { hoursToSeconds } from "date-fns";
 import { EffectText } from "../EffectText";

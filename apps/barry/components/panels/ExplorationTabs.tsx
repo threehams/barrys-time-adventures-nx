@@ -1,5 +1,5 @@
-import { UpgradeKey } from "@laundry/store";
-import { Tab, Tabs } from "@laundry/ui";
+import { UpgradeKey } from "@barry/store";
+import { Tab, Tabs } from "@barry/ui";
 import { Dispatch, SetStateAction } from "react";
 import { Explorations } from "./Explorations";
 import { Panel } from "../types/Panel";

@@ -5,7 +5,7 @@ import {
   initialState,
   findUnlockFor,
   UpgradeKey,
-} from "@laundry/store";
+} from "@barry/store";
 import { hoursToSeconds } from "date-fns";
 import { Draft } from "immer";
 import { updateGame } from "./gameLoop";

@@ -1,11 +1,11 @@
-import { Cheats } from "components/panels/Cheats";
-import { Import } from "components/panels/Import";
-import { Messages } from "components/panels/Messages";
-import { Reset } from "components/panels/Reset";
-import { Speedup } from "components/panels/Speedup";
-import { Upgrades } from "components/panels/Upgrades";
-import { WindowPane } from "components/panels/WindowPane";
-import { Status } from "components/Status";
+import { Cheats } from "../panels/Cheats";
+import { Import } from "../panels/Import";
+import { Messages } from "../panels/Messages";
+import { Reset } from "../panels/Reset";
+import { Speedup } from "../panels/Speedup";
+import { Upgrades } from "../panels/Upgrades";
+import { WindowPane } from "../panels/WindowPane";
+import { Status } from "../Status";
 
 export const Collapse = () => {
   return (

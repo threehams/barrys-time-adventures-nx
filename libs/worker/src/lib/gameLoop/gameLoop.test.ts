@@ -1,4 +1,4 @@
-import { initialState, State } from "@laundry/store";
+import { initialState, State } from "@barry/store";
 import { updateGame } from "./gameLoop";
 import { describe, expect, it } from "@jest/globals";
 import produce from "immer";

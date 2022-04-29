@@ -3,9 +3,9 @@ import {
   explorations,
   findResource,
   findSkill,
-} from "@laundry/store";
-import { Button, Progress } from "@laundry/ui";
-import { isNonNullable } from "@laundry/utils";
+} from "@barry/store";
+import { Button, Progress } from "@barry/ui";
+import { isNonNullable } from "@barry/utils";
 import { EffectText } from "../EffectText";
 import { useDispatch, useSelector } from "../StateProvider";
 

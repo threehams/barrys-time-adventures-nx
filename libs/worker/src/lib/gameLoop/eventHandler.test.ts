@@ -1,4 +1,4 @@
-import { initialState } from "@laundry/store";
+import { initialState } from "@barry/store";
 import { hoursToSeconds } from "date-fns";
 import produce from "immer";
 import { eventHandler } from "./eventHandler";

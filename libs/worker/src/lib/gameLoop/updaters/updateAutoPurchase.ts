@@ -1,4 +1,4 @@
-import { canPurchaseUpgrade, canShowUpgrade, upgrades } from "@laundry/store";
+import { canPurchaseUpgrade, canShowUpgrade, upgrades } from "@barry/store";
 import { Updater } from "../types/Updater";
 
 const AUTO_PURCHASE_TIME = 10_000;

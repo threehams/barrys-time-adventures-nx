@@ -6,7 +6,7 @@ import {
   Upgrade,
   upgradeCost,
   UpgradeKey,
-} from "@laundry/store";
+} from "@barry/store";
 import { useDispatch, useSelector } from "../StateProvider";
 import {
   format,
@@ -16,10 +16,10 @@ import {
   hoursToSeconds,
 } from "date-fns";
 import { groupBy, range } from "lodash";
-import { Button } from "@laundry/ui";
+import { Button } from "@barry/ui";
 import { Dispatch, SetStateAction, useState } from "react";
 import clsx from "clsx";
-import { isNonNullable } from "@laundry/utils";
+import { isNonNullable } from "@barry/utils";
 
 const ONE_DAY = hoursToMilliseconds(24) / 1000;
 const THE_EVENT_DATE = new Date(1997, 7, 29, 2, 14, 0);

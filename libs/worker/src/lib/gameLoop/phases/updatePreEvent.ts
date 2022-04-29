@@ -1,4 +1,4 @@
-import { initialState } from "@laundry/store";
+import { initialState } from "@barry/store";
 import { sub } from "date-fns";
 import { Updater } from "../types";
 import {

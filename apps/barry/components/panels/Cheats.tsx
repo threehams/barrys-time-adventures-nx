@@ -1,4 +1,4 @@
-import { Button } from "@laundry/ui";
+import { Button } from "@barry/ui";
 import { useDispatch, useSelector } from "../StateProvider";
 
 export const Cheats = () => {

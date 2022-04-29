@@ -1,5 +1,5 @@
 import React from "react";
-import { useWorker } from "@laundry/worker";
+import { useWorker } from "@barry/worker";
 import { DispatchProvider, StateProvider } from "./StateProvider";
 import { Game } from "./Game";
 import { useRouter } from "next/router";
