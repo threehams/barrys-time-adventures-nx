@@ -15,11 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@barrys-time-adventures-nx/store": ["libs/store/src/index.ts"],
-      "@barrys-time-adventures-nx/ui": ["libs/ui/src/index.ts"],
-      "@barrys-time-adventures-nx/utils": ["libs/utils/src/index.ts"],
-      "@barrys-time-adventures-nx/worker": ["libs/worker/src/index.ts"]
-    }
+      "@barry/store": ["libs/store/src/index.ts"],
+      "@barry/ui": ["libs/ui/src/index.ts"],
+      "@barry/ui-store": ["libs/ui-store/src/index.ts"],
+      "@barry/utils": ["libs/utils/src/index.ts"],
+      "@barry/worker": ["libs/worker/src/index.ts"]
+    },
+    "types": ["./types"]
   },
   "exclude": ["node_modules", "tmp"]
 }
