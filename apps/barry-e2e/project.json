@@ -1,0 +1,28 @@
+{
+  "root": "apps/barry-e2e",
+  "sourceRoot": "apps/barry-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/barry-e2e/cypress.json",
+        "devServerTarget": "barry:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "barry:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/barry-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["barry"]
+}
