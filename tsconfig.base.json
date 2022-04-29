@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@barrys-time-adventures-nx/store": ["libs/store/src/index.ts"],
+      "@barrys-time-adventures-nx/ui": ["libs/ui/src/index.ts"],
+      "@barrys-time-adventures-nx/utils": ["libs/utils/src/index.ts"],
+      "@barrys-time-adventures-nx/worker": ["libs/worker/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

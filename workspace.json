@@ -2,6 +2,10 @@
   "version": 2,
   "projects": {
     "barry": "apps/barry",
-    "barry-e2e": "apps/barry-e2e"
+    "barry-e2e": "apps/barry-e2e",
+    "store": "libs/store",
+    "ui": "libs/ui",
+    "utils": "libs/utils",
+    "worker": "libs/worker"
   }
 }
